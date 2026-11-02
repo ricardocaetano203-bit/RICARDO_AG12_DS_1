@@ -1,0 +1,129 @@
+<!DOCTYPE html> <!-- Diz ao navegador que este é um documento HTML5 -->
+<html lang="pt-br"> <!-- Início da página; idioma: português do Brasil -->
+<head> <!-- Cabeçalho: informações sobre a página (não aparecem no corpo) -->
+    <meta charset="UTF-8"> <!-- Permite acentos e "ç" corretamente -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ajusta a página para celular -->
+    <title>Meus sites favoritos</title> <!-- Texto que aparece na aba do navegador -->
+    <style> /* Início do CSS: aparência da página */
+        body { /* Estilo do corpo da página */
+            font-family: Verdana, Arial, sans-serif; /* Tipo de letra */
+            background-color: #e9eef3; /* Cor de fundo (cinza-azulado claro) */
+            color: #1f2d3d; /* Cor do texto */
+            margin: 0; /* Remove a margem padrão */
+            padding: 20px; /* Espaço interno ao redor do conteúdo */
+        }
+        header { /* Estilo do cabeçalho visível */
+            background-color: #1f3a5f; /* Fundo azul-escuro */
+            color: #ffffff; /* Texto branco */
+            padding: 20px; /* Espaço interno */
+            border-radius: 8px; /* Cantos arredondados */
+            text-align: center; /* Centraliza o texto */
+        }
+        header h1 { /* Título principal dentro do cabeçalho */
+            margin: 0; /* Remove a margem do título */
+            font-size: 28px; /* Tamanho da letra */
+        }
+        main { /* Área principal com os sites */
+            max-width: 700px; /* Largura máxima, para não esticar demais */
+            margin: 20px auto; /* Centraliza na tela */
+        }
+        section { /* Cada bloco de site */
+            background-color: #ffffff; /* Fundo branco */
+            border-left: 6px solid #2e7d6b; /* Faixa verde à esquerda */
+            padding: 15px; /* Espaço interno */
+            margin-bottom: 20px; /* Espaço entre um site e outro */
+            text-align: center; /* Centraliza imagem e textos */
+        }
+        section h1 { /* Nome de cada site */
+            font-size: 22px; /* Menor que o título principal */
+            margin-top: 0; /* Tira o espaço acima do nome */
+            color: #1f3a5f; /* Azul-escuro */
+        }
+        img { /* Estilo das imagens */
+            width: 100%; /* Ocupa a largura do bloco */
+            max-width: 600px; /* Mas no máximo 600 pixels */
+            border: 1px solid #b8c4d0; /* Borda fina cinza */
+        }
+        a { /* Estilo dos links */
+            color: #2e7d6b; /* Cor verde */
+            font-weight: bold; /* Negrito */
+        }
+        a:hover { /* Quando o mouse passa por cima do link */
+            color: #1f3a5f; /* Muda para azul-escuro */
+        }
+        footer { /* Rodapé */
+            text-align: center; /* Centralizado */
+            font-size: 13px; /* Letra menor */
+            color: #5a6b7c; /* Cinza */
+        }
+    </style> <!-- Fim do CSS -->
+</head> <!-- Fim do cabeçalho -->
+<body> <!-- Início do corpo: tudo que aparece na tela -->
+
+    <header> <!-- Cabeçalho visível da página -->
+        <h1>Meus sites favoritos: Ricardo</h1> <!-- Título do corpo da página com meu nome -->
+        <p>Sites que uso para estudar, programar e me informar.</p> <!-- Parágrafo de apresentação -->
+    </header> <!-- Fim do cabeçalho visível -->
+
+    <main> <!-- Início da área principal -->
+
+        <!-- ===== SITE 1 ===== -->
+        <section> <!-- Bloco do site 1 -->
+            <h1>GitHub</h1> <!-- Nome do site (acima da imagem) -->
+            <a href="https://github.com" target="_blank"> <!-- Link na imagem; target="_blank" abre em nova aba -->
+                <img src="github.png" alt="Página inicial do GitHub"> <!-- Imagem do site (arquivo na mesma pasta) -->
+            </a> <!-- Fim do link da imagem -->
+            <p>Onde guardo meus projetos de programação.</p> <!-- Descrição curta do site -->
+            <a href="https://github.com" target="_blank">https://github.com</a> <!-- Link escrito abaixo da imagem -->
+        </section> <!-- Fim do bloco do site 1 -->
+
+        <!-- ===== SITE 2 ===== -->
+        <section> <!-- Bloco do site 2 -->
+            <h1>W3Schools</h1> <!-- Nome do site -->
+            <a href="https://www.w3schools.com" target="_blank"> <!-- Link na imagem -->
+                <img src="w3schools.png" alt="Página inicial do W3Schools"> <!-- Imagem do site -->
+            </a> <!-- Fim do link da imagem -->
+            <p>Tutoriais de HTML, CSS e outras linguagens.</p> <!-- Descrição -->
+            <a href="https://www.w3schools.com" target="_blank">https://www.w3schools.com</a> <!-- Link abaixo da imagem -->
+        </section> <!-- Fim do bloco do site 2 -->
+
+        <!-- ===== SITE 3 ===== -->
+        <section> <!-- Bloco do site 3 -->
+            <h1>YouTube</h1> <!-- Nome do site -->
+            <a href="https://www.youtube.com" target="_blank"> <!-- Link na imagem -->
+                <img src="youtube.png" alt="Página inicial do YouTube"> <!-- Imagem do site -->
+            </a> <!-- Fim do link da imagem -->
+            <p>Videoaulas e passatempo.</p> <!-- Descrição -->
+            <a href="https://www.youtube.com" target="_blank">https://www.youtube.com</a> <!-- Link abaixo da imagem -->
+        </section> <!-- Fim do bloco do site 3 -->
+
+        <!-- ===== SITE 4 ===== -->
+        <section> <!-- Bloco do site 4 -->
+            <h1>Wikipédia</h1> <!-- Nome do site -->
+            <a href="https://pt.wikipedia.org" target="_blank"> <!-- Link na imagem -->
+                <img src="wikipedia.png" alt="Página inicial da Wikipédia"> <!-- Imagem do site -->
+            </a> <!-- Fim do link da imagem -->
+            <p>Enciclopédia livre para pesquisas.</p> <!-- Descrição -->
+            <a href="https://pt.wikipedia.org" target="_blank">https://pt.wikipedia.org</a> <!-- Link abaixo da imagem -->
+        </section> <!-- Fim do bloco do site 4 -->
+
+        <!-- ===== SITE 5 ===== -->
+        <section> <!-- Bloco do site 5 -->
+            <h1>Centro Paula Souza</h1> <!-- Nome do site -->
+            <a href="https://www.cps.sp.gov.br" target="_blank"> <!-- Link na imagem -->
+                <img src="cps.png" alt="Página inicial do Centro Paula Souza"> <!-- Imagem do site -->
+            </a> <!-- Fim do link da imagem -->
+            <p>Site das Etecs e Fatecs.</p> <!-- Descrição -->
+            <a href="https://www.cps.sp.gov.br" target="_blank">https://www.cps.sp.gov.br</a> <!-- Link abaixo da imagem -->
+        </section> <!-- Fim do bloco do site 5 -->
+
+    </main> <!-- Fim da área principal -->
+
+    <hr> <!-- Linha horizontal separando o rodapé -->
+
+    <footer> <!-- Rodapé da página -->
+        <p>Atividade Agenda 12 - Desenvolvimento de Sistemas - Ricardo - 2026</p> <!-- Informações da atividade -->
+    </footer> <!-- Fim do rodapé -->
+
+</body> <!-- Fim do corpo -->
+</html> <!-- Fim da página -->
